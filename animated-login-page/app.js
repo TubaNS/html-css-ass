@@ -1,25 +1,20 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     const music = document.getElementById('bck-music');
 
-    // Müziği otomatik olarak başlatma işlemi
-    function startMusic() {
+    function playMusic() {
         if (music) {
             music.play().then(() => {
                 console.log('Müzik başarıyla başladı.');
             }).catch(error => {
-                console.log('Müzik otomatik başlatma başarısız:', error);
+                console.log('Müzik oynatma hatası:', error);
             });
         }
     }
 
-    // Sayfa yüklendiğinde veya belirli bir süre sonra müziği başlatma
-    startMusic();
-
-    // Kullanıcı etkileşimiyle müziği başlatma
-    document.addEventListener('click', function(event) {
-        const target = event.target;
-        if (target && target.classList.contains('login')) {
-            startMusic();
-        }
+    // Kullanıcı bir butona tıkladığında müziği başlat
+    const loginButton = document.querySelector('.login');
+    loginButton.addEventListener('click', function() {
+        playMusic();
     });
 });
