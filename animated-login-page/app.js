@@ -1,3 +1,5 @@
+// alert("Şarkının keyfini çıkartmanız dileğiyle :)")
+
 document.addEventListener('DOMContentLoaded', function() {
     const music = document.getElementById('bck-music');
     const playMusic = () => {
@@ -12,4 +14,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
-  alert("Şarkının keyfini çıkartmanız dileğiyle :)")
