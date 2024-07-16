@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Kullanıcı bir butona tıkladığında müziği başlat
+   
     const loginButton = document.querySelector('.login');
     loginButton.addEventListener('click', function() {
         playMusic();
