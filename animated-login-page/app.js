@@ -1,4 +1,4 @@
-
+alert("Login butonuna basmayı ihmal etmeyin :)")
 document.addEventListener('DOMContentLoaded', function() {
     const music = document.getElementById('bck-music');
 
