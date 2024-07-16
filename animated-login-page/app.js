@@ -1,4 +1,4 @@
-// alert("Şarkının keyfini çıkartmanız dileğiyle :)")
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const music = document.getElementById('bck-music');
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   
     if (music) {
-      playMusic(); // Sayfa yüklenir yüklenmez müziği çalmayı dener
+      playMusic(); 
     }
   });
 
