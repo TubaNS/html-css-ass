@@ -259,3 +259,34 @@ animation: bird 30s linear infinite ;
         filter: grayscale(100%);
       }
   }
+
+  @media (max-width: 768px) {
+    .leaf1 {
+        background-position: 5% 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .leaf2 {
+        background-position: 20% 5rem;
+    }
+}
+@media (max-width: 768px) {
+    .leaf3 {
+        background-position: 40% 7rem;
+    }
+}
+@media (max-width: 768px) {
+    .leaf4 {
+        background-position: 60% 9rem;
+    }
+}
+@media (max-width: 768px) {
+    .leaf5 {
+        background-position: 80% 9rem;
+    }
+}
+@media (max-width: 768px) {
+    .leaf6 {
+        background-position: 100% 11rem;
+    }
+}
